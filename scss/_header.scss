@@ -1,0 +1,22 @@
+.a1 {
+  margin-left: 26vw;
+}
+#logo {
+  display: block;
+  width: 30%;
+  align-items: center;
+  margin-left: 22.5vw;
+  border-radius: 50%;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  .onglet {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+  }
+}

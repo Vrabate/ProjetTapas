@@ -1,0 +1,15 @@
+.bg-2eme-couleur {
+  background-color: #ffcf6e;
+}
+.scaleup {
+  &:hover {
+    scale: 1.1;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+}
+.margindown {
+  margin-bottom: 30px;
+}
+.second-font {
+  font-family: "Dancing Script", cursive;
+}

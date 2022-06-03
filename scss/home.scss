@@ -1,0 +1,47 @@
+#bandeau_home {
+  width: 99.1vw;
+  height: 85vh;
+  background-image: url(../photo/photo_tapas/tapas3.png);
+  background-size: cover;
+  background-position: top center;
+  margin-top: -75px;
+}
+
+.tapas_presentation {
+  width: 33.5vw;
+  height: auto;
+  margin-top: 2.5vh;
+}
+#presentation {
+  margin-top: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#prezbutton {
+  border-radius: 25px;
+  border: none;
+  background-color: #ffcf6e;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  &:hover {
+    box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+}
+.cheftapas {
+  height: 35vh;
+}
+.cuisinier {
+  text-align: left;
+}
+
+.adresses {
+  height: 350px;
+  border-top: solid;
+  border-bottom: solid;
+  border-right: solid;
+  border: 0 5px 5px 5px;
+  border-color: #ffcf6e;
+}

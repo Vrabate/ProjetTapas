@@ -1,0 +1,22 @@
+#bandeau_carte {
+  width: 99.1vw;
+  height: 85vh;
+  background-image: url(../photo/resto/resto1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -75px;
+}
+.tapas_carte {
+  width: 28vw;
+  height: auto;
+  margin-top: 2.5vh;
+}
+.liste_de_plats {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px;
+}
+.liste_de_plats2 {
+  display: flex;
+  justify-content: space-between;
+}

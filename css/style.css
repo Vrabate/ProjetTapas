@@ -1,0 +1,136 @@
+.bg-2eme-couleur {
+  background-color: #ffcf6e;
+}
+
+.scaleup:hover {
+  scale: 1.1;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.margindown {
+  margin-bottom: 30px;
+}
+
+.second-font {
+  font-family: "Dancing Script", cursive;
+}
+
+.a1 {
+  margin-left: 26vw;
+}
+
+#logo {
+  display: block;
+  width: 30%;
+  align-items: center;
+  margin-left: 22.5vw;
+  border-radius: 50%;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+}
+#menu .onglet {
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+#bandeau_home {
+  width: 99.1vw;
+  height: 85vh;
+  background-image: url(../photo/photo_tapas/tapas3.png);
+  background-size: cover;
+  background-position: top center;
+  margin-top: -75px;
+}
+
+.tapas_presentation {
+  width: 33.5vw;
+  height: auto;
+  margin-top: 2.5vh;
+}
+
+#presentation {
+  margin-top: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#prezbutton {
+  border-radius: 25px;
+  border: none;
+  background-color: #ffcf6e;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+}
+#prezbutton:hover {
+  box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cheftapas {
+  height: 35vh;
+}
+
+.cuisinier {
+  text-align: left;
+}
+
+.adresses {
+  height: 350px;
+  border-top: solid;
+  border-bottom: solid;
+  border-right: solid;
+  border: 0 5px 5px 5px;
+  border-color: #ffcf6e;
+}
+
+#bandeau_his {
+  width: 99.1vw;
+  height: 85vh;
+  background-image: url(../photo/photo_tapas/tapas8.jpg);
+  background-size: cover;
+  background-position: top center;
+  margin-top: -75px;
+}
+
+#bandeau_carte {
+  width: 99.1vw;
+  height: 85vh;
+  background-image: url(../photo/resto/resto1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -75px;
+}
+
+.tapas_carte {
+  width: 28vw;
+  height: auto;
+  margin-top: 2.5vh;
+}
+
+.liste_de_plats {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px;
+}
+
+.liste_de_plats2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bandeau_mention {
+  width: 99.1vw;
+  height: 85vh;
+  background-image: url(../photo/resto/photo-1615830783066-26a99bc9d959.jpg);
+  background-size: cover;
+  background-position: top center;
+  margin-top: -75px;
+}/*# sourceMappingURL=style.css.map */
